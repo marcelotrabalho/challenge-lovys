@@ -21,5 +21,240 @@ This solution is using the *Entity framework in memory*, so, There are endpoints
 There is 4 endpoints:<br>
 execution order:<br>
 1 - *POST* - https://localhost:44344/schedule/interviewer/create
-    This endpoint is the firs step of the solution. To create the schedule of the Interviewer.
-    <br>Example
+    This endpoint is the first step of the solution. To create the schedule of the Interviewer.
+    <br> *Example - Json schedule Mary Interviewer*
+   ```
+    {    
+      "name": "Mary",
+      "NextWeek":[
+        {
+          "weekDay": 1,
+          "available": [9,10,11,12,13,14,15]
+        },
+        {
+          "weekDay": 2,
+          "available": [9,10,11,12,13,14,15]
+        },
+        {
+          "weekDay": 3,
+          "available": [9,10,11,12,13,14,15]
+        },
+        {
+          "weekDay": 4,
+          "available": [9,10,11,12,13,14,15]
+        },
+        {
+          "weekDay": 5,
+          "available": [9,10,11,12,13,14,15]
+        }
+      ]
+    }
+   ```
+   <br>*Example - Json schedule Diana Interviewer*
+   ```
+   {
+	"name": "Diana",
+	"NextWeek":[
+		{
+			"weekDay": 1,
+			"available": [12,13,14,15,16,17,18]
+		},
+		{
+			"weekDay": 2,
+			"available": [9,10,11]
+		},
+		{
+			"weekDay": 3,
+			"available": [12,13,14,15,16,17,18]
+		},
+		{
+			"weekDay": 4,
+			"available": [9,10,11]
+		}
+	]
+}
+   ```
+2 - *POST* - https://localhost:44344/schedule/candidate/create
+    This endpoint is the second step of the solution. To create the schedule of the Candidate.
+<br>*Example - Json schedule John Candidate*
+   ```
+   {
+	"name": "john",
+	"NextWeek":[
+		{
+			"weekDay": 1,
+			"available": [9]
+		},
+		{
+			"weekDay": 2,
+			"available": [9]
+		},
+		{
+			"weekDay": 3,
+			"available": [9,10,11]
+		},
+		{
+			"weekDay": 4,
+			"available": [9]
+		},
+		{
+			"weekDay": 5,
+			"available": [9]
+		}
+	]
+}
+   ```
+  3 - *GET* - https://localhost:44344/schedule/all
+  This is endpoint is use to see all sent to api.
+  <br>*Example - Json of return*
+   ```
+   [
+	{
+		"name": "Mary",
+		"nextWeek": [
+			{
+				"weekDay": 1,
+				"available": [
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15
+				]
+			},
+			{
+				"weekDay": 2,
+				"available": [
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15
+				]
+			},
+			{
+				"weekDay": 3,
+				"available": [
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15
+				]
+			},
+			{
+				"weekDay": 4,
+				"available": [
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15
+				]
+			},
+			{
+				"weekDay": 5,
+				"available": [
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15
+				]
+			}
+		]
+	},
+	{
+		"name": "Diana",
+		"nextWeek": [
+			{
+				"weekDay": 1,
+				"available": [
+					12,
+					13,
+					14,
+					15,
+					16,
+					17,
+					18
+				]
+			},
+			{
+				"weekDay": 2,
+				"available": [
+					9,
+					10,
+					11
+				]
+			},
+			{
+				"weekDay": 3,
+				"available": [
+					12,
+					13,
+					14,
+					15,
+					16,
+					17,
+					18
+				]
+			},
+			{
+				"weekDay": 4,
+				"available": [
+					9,
+					10,
+					11
+				]
+			}
+		]
+	},
+	{
+		"name": "john",
+		"nextWeek": [
+			{
+				"weekDay": 1,
+				"available": [
+					9
+				]
+			},
+			{
+				"weekDay": 2,
+				"available": [
+					9
+				]
+			},
+			{
+				"weekDay": 3,
+				"available": [
+					9,
+					10,
+					11
+				]
+			},
+			{
+				"weekDay": 4,
+				"available": [
+					9
+				]
+			},
+			{
+				"weekDay": 5,
+				"available": [
+					9
+				]
+			}
+		]
+	}
+]
+   ```
