@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "/X3XJwxy1T0BWqZbMA4k7EY+62tQrikJutT9aa6aC0POHq3GgF0ktQ75STDuY9b+HhRfHCoIlU9+13FrZ1rphg==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\challenge-lovys\\challenge-lovys\\challenge-lovys.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.14\\microsoft.entityframeworkcore.5.0.14.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.14\\microsoft.entityframeworkcore.abstractions.5.0.14.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.14\\microsoft.entityframeworkcore.analyzers.5.0.14.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.14\\microsoft.entityframeworkcore.inmemory.5.0.14.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.2-mauipre.1.22102.15\\microsoft.extensions.dependencyinjection.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\AlterUser\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

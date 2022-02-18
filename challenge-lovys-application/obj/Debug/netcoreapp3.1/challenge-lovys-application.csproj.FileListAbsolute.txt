@@ -1,0 +1,13 @@
+C:\temp\challenge-lovys\challenge-lovys-application\bin\Debug\netcoreapp3.1\challenge-lovys-application.deps.json
+C:\temp\challenge-lovys\challenge-lovys-application\bin\Debug\netcoreapp3.1\challenge-lovys-application.dll
+C:\temp\challenge-lovys\challenge-lovys-application\bin\Debug\netcoreapp3.1\challenge-lovys-application.pdb
+C:\temp\challenge-lovys\challenge-lovys-application\bin\Debug\netcoreapp3.1\challenge-lovys-repository.dll
+C:\temp\challenge-lovys\challenge-lovys-application\bin\Debug\netcoreapp3.1\challenge-lovys-repository.pdb
+C:\temp\challenge-lovys\challenge-lovys-application\obj\Debug\netcoreapp3.1\challenge-lovys-application.csproj.AssemblyReference.cache
+C:\temp\challenge-lovys\challenge-lovys-application\obj\Debug\netcoreapp3.1\challenge-lovys-application.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\challenge-lovys\challenge-lovys-application\obj\Debug\netcoreapp3.1\challenge-lovys-application.AssemblyInfoInputs.cache
+C:\temp\challenge-lovys\challenge-lovys-application\obj\Debug\netcoreapp3.1\challenge-lovys-application.AssemblyInfo.cs
+C:\temp\challenge-lovys\challenge-lovys-application\obj\Debug\netcoreapp3.1\challenge-lovys-application.csproj.CoreCompileInputs.cache
+C:\temp\challenge-lovys\challenge-lovys-application\obj\Debug\netcoreapp3.1\challenge-lovys-application.csproj.CopyComplete
+C:\temp\challenge-lovys\challenge-lovys-application\obj\Debug\netcoreapp3.1\challenge-lovys-application.dll
+C:\temp\challenge-lovys\challenge-lovys-application\obj\Debug\netcoreapp3.1\challenge-lovys-application.pdb

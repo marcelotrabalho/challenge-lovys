@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>challenge_lovys</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\challenge-lovys-application\challenge-lovys-application.csproj" />
+    <ProjectReference Include="..\challenge-lovys-ioc\challenge-lovys-ioc.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>challenge_lovys_ioc</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.14" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.2-mauipre.1.22102.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\challenge-lovys-application\challenge-lovys-application.csproj" />
+    <ProjectReference Include="..\challenge-lovys-repository\challenge-lovys-repository.csproj" />
+  </ItemGroup>
+
+</Project>
