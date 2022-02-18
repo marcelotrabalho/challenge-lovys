@@ -21,9 +21,9 @@ This solution is using the *Entity framework in memory*, so, There are endpoints
 There is 4 endpoints:<br>
 execution order:<br>
 1 - *POST* - https://localhost:44344/schedule/interviewer/create
-    This endpoint is the first step of the solution. To create the schedule of the Interviewer.
-    <br> *Example - Json schedule Mary Interviewer*
-   ```
+This endpoint is the first step of the solution. To create the schedule of the Interviewer.
+<br> *Example - body of Json schedule Mary Interviewer*
+  ```
     {    
       "name": "Mary",
       "NextWeek":[
@@ -75,8 +75,8 @@ execution order:<br>
 }
    ```
 2 - *POST* - https://localhost:44344/schedule/candidate/create
-    This endpoint is the second step of the solution. To create the schedule of the Candidate.
-<br>*Example - Json schedule John Candidate*
+This endpoint is the second step of the solution. To create the schedule of the Candidate.
+<br>*Example - body of Json schedule John Candidate*
    ```
    {
 	"name": "john",
@@ -257,4 +257,38 @@ execution order:<br>
 		]
 	}
 ]
+   ```
+   4 - *GET* - https://localhost:44344/schedule/all
+   This endpoint return the result asked on the problem. 
+   *body of the json of send*
+   ```
+   {
+	"candidate":"John",
+	"interviewers":["Mary","Diana"]
+    }
+   ```
+   Example of the return:
+   ```
+   {
+	"status": "ok",
+	"message": "Success",
+	"results": [
+		{
+			"day": 2,
+			"hour": 9,
+			"name": [
+				"Mary",
+				"Diana"
+			]
+		},
+		{
+			"day": 4,
+			"hour": 9,
+			"name": [
+				"Mary",
+				"Diana"
+			]
+		}
+	]
+}
    ```
